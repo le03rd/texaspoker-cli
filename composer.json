@@ -1,0 +1,24 @@
+{
+    "name": "leo/usautoparts-test-1",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leo Ordoñez III",
+            "email": "leo.ordonez.iii@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/",
+        "App\\Lib\\": "app/lib/",
+        "App\\Interfaces\\": "app/interfaces/",
+        "App\\Controllers\\": "app/controllers/",
+        "App\\Collections\\": "app/collections/",
+        "App\\Models\\": "app/models/"
+      }
+    },
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.3"
+    }
+}
